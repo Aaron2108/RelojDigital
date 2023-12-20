@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+body{
+    background-color: black;
+    color: #17d4fe;
+    letter-spacing: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 0 0 10px #10819b; 
+}
+.contenedor-reloj{
+    position: relative;
+    max-width: 600px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+    height: auto;
+}
+.div_reloj{
+    max-width: 100%;
+    padding: 10px;
+}
+@media (max-width: 537px) {
+    body {
+        font-size: 20px;
+    }
+}
